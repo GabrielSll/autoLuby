@@ -294,17 +294,17 @@
     color: #3C3C3C;
 }
 
-.Reservado_2 {
+.Disponivel {
     position: absolute;
     width: 102px;
     height: 30px;
     left: 1035px;
     top: 390px;
     padding-top: 3px;
-    padding: 3px;
-    color: #FAC12F;
-    background: rgba(250, 193, 47, 0.2);
+    color: #34C38F;
+    background: rgba(52, 195, 143, 0.2);
     border-radius: 3px;
+    text-align: center;
 }
 
 .Vendido {
@@ -325,6 +325,19 @@
     height: 30px;
     left: 1035px;
     top: 212px;
+    padding: 3px;
+    color: #FAC12F;
+    background: rgba(250, 193, 47, 0.2);
+    border-radius: 3px;
+}
+
+.Reservado_2 {
+    position: absolute;
+    width: 102px;
+    height: 30px;
+    left: 1035px;
+    top: 390px;
+    padding-top: 3px;
     padding: 3px;
     color: #FAC12F;
     background: rgba(250, 193, 47, 0.2);
