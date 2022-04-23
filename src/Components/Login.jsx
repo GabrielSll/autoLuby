@@ -8,7 +8,7 @@ import Carro from '../images/Carro.png'
 import * as yup from 'yup';
 import { Formik } from 'formik'
 import { history } from '../Services/History'
-
+import { ToastContainer, toast } from 'react-toastify'
 
 const Login = () => {
 
@@ -25,7 +25,10 @@ const Login = () => {
             })
             window.location.reload(false);
         })
-        console.log("submit", { email, password })
+            .catch(error => {
+                toast.error('Email ou Senha Inválidos')
+            })
+
     }
 
     const validations = yup.object().shape({
@@ -35,6 +38,21 @@ const Login = () => {
 
     return (
         <div className='main'>
+
+            <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+            />
+            {/* Same as */}
+            <ToastContainer />
+
             <div className='header'>
                 <img alt='Logo' src={Logo} className='Logo' />
                 <h1>AutoLuby</h1>

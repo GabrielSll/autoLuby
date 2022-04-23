@@ -6,6 +6,8 @@ import ListaCarros from "./Components/ListaCarros";
 import ListaFuncionarios from "./Components/ListaFuncionarios"
 import ListaCarrosReservados from "./Components/ListaCarrosReservados"
 import NotFound from "./Services/NotFound";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
@@ -13,6 +15,7 @@ const App = () => {
         <Router>
             <div>
                 <Routes>
+
                     <Route path="/" element={<Login />} />
 
                     <Route path="/telaInicial" element={<TelaInicial />} />

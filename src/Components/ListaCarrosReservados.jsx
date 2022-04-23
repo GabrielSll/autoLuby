@@ -23,11 +23,7 @@ function ListaCarros() {
             }
         })
             .then(res => {
-                console.log(res.data.vehicles)
                 setListCarros(res.data.vehicles)
-            })
-            .catch(error => {
-                console.log(error)
             })
     }, [])
 

@@ -23,11 +23,7 @@ function ListaCarros() {
             }
         })
             .then(res => {
-                console.log(res.data)
                 setListFuncionario(res.data.employees)
-            })
-            .catch(error => {
-                console.log(error)
             })
     }, [])
 
