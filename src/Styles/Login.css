@@ -1,0 +1,334 @@
+/* AutoLuby */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap);
+
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.main{
+    min-width: 320px;
+    max-width: 1920px;
+    min-height: 1024px;
+    max-height: 1024px;
+    display: flex;
+}
+
+.header h1 {
+    position: absolute;
+    width: 177.33px;
+    height: 57px;
+    left: 208px;
+    top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: #F54A48;
+    }
+    
+.header .Logo {
+    display: flex;
+    position: absolute;
+    width: 35px;
+    height: 38px;
+    left: 150px;
+    top: 50px;
+    }
+    
+.carro {
+    position: absolute;
+    display: flex;
+    min-width: 977px;
+    min-height: 1024px;
+    left: 943px;
+    top: 0px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.menu h3 {
+    /* Bem-vindo à AutoLuby */
+    display: flex;
+    position: absolute;
+    width: 177.px;
+    height: 46px;
+    left: 259px;
+    top: 310px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+
+    /* identical to box height, or 46px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
+    /* Dark Gray */
+    color: #3C3C3C;
+}
+
+.menu span {
+    /* Faça o login para acessar sua conta. */
+    position: absolute;
+    width: 245px;
+    height: 80px;
+    left: 259px;
+    top: 330px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+
+    /* or 14px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Light Gray */
+    color: #A2A2A2;
+    }
+
+.input_login_email {
+    /* Rectangle 95 */
+    position: absolute;
+    width: 425px;
+    height: 36px;
+    left: 259px;
+    top: 464px;
+
+    /* Input */
+    background: #F9F9F9;
+    padding-left: 15.6px;
+
+    /* Stroke */
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.input_login_password  {
+    /* Rectangle 96 */
+    position: absolute;
+    width: 425px;
+    height: 36px;
+    left: 259px;
+    top: 553px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+
+    /* Input */
+    background: #F9F9F9;
+    padding-left: 15.6px;
+
+    /* Stroke */
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.login_form label.email {
+    /* Endereço de email */
+    position: absolute;
+    width: 128px;
+    height: 17px;
+    left: 259px;
+    top: 441px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+
+    /* identical to box height, or 17px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
+    /* Gray */
+    color: #7C7C7C;
+}
+
+.login_form label.password { 
+    position: absolute;
+    width: 128px;
+    height: 17px;
+    left: 259px;
+    top: 530px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
+    color: #7C7C7C;
+} 
+
+.lembrar_senha {
+    /* Lembrar minha senha */
+    position: absolute;
+    width: 150px;
+    height: 17px;
+    left: 293px;
+    top: 622px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: medium;
+    font-weight: 500, ;
+    font-size: 14px;
+    line-height: 120%;
+
+    /* identical to box height, or 17px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
+    /* Primary Red */
+    color: #F54A48;
+}
+
+.btn_check {
+position: absolute;
+display: flex;
+width: 24px;
+height: 24px;
+left: 259px;
+top: 619px;
+background: #F54A48;
+border-radius: 3px;
+color: #FFF;
+border-style: none;
+}
+
+.icon_check{
+    display: flex;
+    width: 24px;
+    height: 18px;
+    margin-top: 3px;
+}
+
+.custom_checkbox label {
+    position: absolute;
+    width: 150px;
+    height: 17px;
+    left: 293px;
+    top: 622px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+
+    /* identical to box height, or 17px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
+    /* Primary Red */
+    color: #F54A48;
+}
+
+.esqueceu_senha {
+    position: absolute;
+    width: 150px;
+    height: 17px;
+    left: 554px;
+    top: 622px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+
+    /* identical to box height, or 17px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.03em;
+
+    /* Primary Red */
+    color: #F54A48;
+}
+
+.btn {
+    /* Button Web */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    position: absolute;
+    width: 425px;
+    height: 37px;
+    left: 259px;
+    top: 683px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFF;
+    border-style: none;
+
+    /* Primary Red */
+    background: #F54A48;
+    border-color: #F54A48;
+    border-radius: 3px;
+}
+
+.nova_conta {
+    position: absolute;
+    width: 274px;
+    height: 17px;
+    left: 259px;
+    top: 760px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+
+    /* identical to box height, or 17px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
+    /* Gray */
+    color: #7C7C7C;
+}
+
+.criar_conta {
+    color: #F54A48;
+}
+

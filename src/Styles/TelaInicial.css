@@ -1,0 +1,514 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+p {
+    padding-left: 405px;
+    padding-top: 50px;
+    /* Header 4 */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    /* idntical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    /* Primary Red */
+    color: #F54A48;
+    }
+
+/*----CABEÇALHO----*/
+
+.headerTelaInicial h1 {
+    position: absolute;
+    width: 177.33px;
+    height: 57px;
+    left: 208px;
+    top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: #F54A48;
+    }
+    
+.headerTelaInicial .Logo {
+    position: absolute;
+    width: 35px;
+    height: 38px;
+    left: 150px;
+    top: 35px;
+    }
+
+.headerTelaInicial {
+    position: absolute;
+    width: 1920px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 25px rgba(169, 169, 169, 0.2);
+}
+
+.searchbox {
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    width: 430px;
+    height: 44px;
+    left: 745px;
+    top: 38px;
+/* Input */
+    background: #F9F9F9;
+/* Stroke */
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+/* Card shadow */
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+    border-radius: 3px;
+}
+
+.btn_search {
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background: #F9F9F9;
+    width: 26px;    
+    height: 26px;
+    left: 59.20%;
+    right: 20.83%;
+    top: 43%;
+    bottom: 20.83%;
+}
+
+.submit {
+appearance: none;
+-webkit-appearance: none;
+position: absolute;
+width: 25px;    
+height: 25px;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+.btn_exit {
+appearance: none;
+border-style: none;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 9px 10px;
+position: absolute;
+width: 80px;
+height: 40px;
+left: 1695px;
+top: 36px;
+color: #FFFFFF;
+font-size: 16.5px;
+font-family: 'Poppins', sans-serif;
+background: #F54A48;
+border-radius: 3px;
+}
+
+.submit_exit {
+    padding-left: 13px;
+    margin-top: 2px;
+    color: #FFFFFF;
+    width: 60px;
+    height: 18px;
+}
+
+/*-----MENU------*/
+
+.menuTelaInicial {
+    display: column;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 560px;
+    top: 185px;
+}
+
+.menuTelaInicial h3{
+    width: 277px;
+    height: 45px;
+    left: 560px;
+    top: 185px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+/* Dark Gray */
+    color: #3C3C3C;
+}
+
+.menuTelaInicial span {
+    width: 50px;
+    height: 27px;
+    left: 559px;
+    top: 235px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #7C7C7C;
+}
+
+/*----RESERVADOS/LISTAGEM/FUNCIONARIOS----*/
+
+.reservados {
+    position: absolute;
+    display: column;
+    width: 800px;
+    height: 200px;
+    left: 560px;
+    top: 292px;
+    background: #FFFFFF;
+    /* Stroke */
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    /* Card shadow */
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+    border-radius: 3px;
+    align-items: center;
+    color: #3C3C3C;
+}
+
+.reservados:hover{
+    border: 3px;
+    transform:scale(1.1);
+}
+
+.btn_reservados{
+    position: absolute;
+    width: 800px;
+    height: 198px;
+    margin-bottom: 40px;
+    border: 1px solid #E6E6E6;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+    cursor: pointer;
+}
+
+.reservados h3{
+    position: absolute;
+    width: 403px;
+    height: 39px;
+    left: 40px;
+    top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    /* Dark Gray */
+    color: #3C3C3C;
+}
+
+.reservados h6{
+    position: absolute;
+    width: 357px;
+    height: 27px;
+    left: 44px;
+    top: 62px;
+/* Header 3 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+/* Gray */
+    color: #7C7C7C;
+}
+
+.reservados span{
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 425px;
+    top: 150px;
+/* Header 4 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+/* Primary Red */
+    color: #F54A48;
+}
+
+.carroReservado_img {
+    position: absolute;
+    bottom: 0px;
+    width: 258px;
+    height: 198px;
+    border-radius: 0px 3px 3px 0px;
+    margin-left: 140px;
+    border-radius: 1px;
+
+}
+
+.listagem {
+    position: absolute;
+    display: column;
+    width: 800px;
+    height: 200px;
+    left: 560px;
+    top: 512px;
+    background: #FFFFFF;
+/* Stroke */
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+/* Card shadow */
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+    border-radius: 3px;
+    /*color*/
+    color: #3C3C3C;
+}
+
+.listagem:hover{
+    border: 3px;
+    transform:scale(1.1);
+}
+
+.btn_listagem{
+    position: absolute;
+    width: 800px;
+    height: 198px;
+    margin-bottom: 40px;
+    background: #FFFFFF;
+/* Stroke */
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+    box-sizing: border-box;
+/* Card shadow */
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.listagem h3 {
+    position: absolute;
+    width: 403px;
+    height: 39px;
+    left: 40px;
+    top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    /* Dark Gray */
+    color: #3C3C3C;
+}
+
+.listagem span{
+    position: absolute;
+    width: 86px;
+    height: 20px;
+    left: 425px;
+    top: 150px;
+/* Header 4 */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+/* Primary Red */
+    color: #F54A48;
+}
+
+.listagem h6 {
+    position: absolute;
+    width: 356px;
+    height: 50px;
+    left: 40px;
+    top: 55px;
+/* Header 3 */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+/* GraY */
+    color: #7C7C7C;
+}
+
+.listagemGeral_img {
+    position: absolute;
+    width: 258px;
+    height: 198px;
+    bottom: 0px;
+    margin-left: 126px;
+    border-radius: 0px 3px 3px 0px;
+    border-radius: 1px;
+}
+
+.funcionarios {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    height: 200px;
+    left: 560px;
+    top: 732px;
+    background: #FFFFFF;
+/* Stroke */
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+/* Card shadow */
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+    border-radius: 3px;
+}
+
+.funcionarios:hover{
+    border: 3px;
+    transform:scale(1.1);
+}
+
+.btn_funcionarios{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    height: 200px;
+    margin-bottom: 28px;
+    margin-left: 0;    
+    background: #FFFFFF;
+/* Stroke */
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+/* Card shadow */
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.funcionarios h3 {
+    position: absolute;
+    width: 403px;
+    height: 39px;
+    left: 40px;
+    top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    /* Dark Gray */
+    color: #3C3C3C;
+}
+
+.funcionarios h6{
+    position: absolute;
+    width: 411px;
+    height: 27px;
+    left: 40px;
+    top: 65px;
+    /* Header 3 */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    /* Gray */
+    color: #7C7C7C;
+}
+
+.funcionarios span {
+position: absolute;
+width: 120px;
+height: 20px;
+left: 400px;
+top: 150px;
+/* Header 4 */
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+/* Primary Red */
+color: #F54A48;
+}
+
+.funcionarios_img {
+    position: relative;
+    bottom: 32px;
+    width: 258px;
+    height: 200px;
+    border-radius: 0px 3px 3px 0px;
+    margin-left: 510px;
+}
+

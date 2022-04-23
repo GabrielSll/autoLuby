@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Login from "./Components/Login";
+import TelaInicial from "./Components/TelaInicial";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ListaCarros from "./Components/ListaCarros";
+import ListaFuncionarios from "./Components/ListaFuncionarios"
+import ListaCarrosReservados from "./Components/ListaCarrosReservados"
+import NotFound from "./Services/NotFound";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+    return (
+        <Router>
+            <div>
+                <Routes>
+                    <Route path="/" element={<Login />} />
+
+                    <Route path="/telaInicial" element={<TelaInicial />} />
+
+                    <Route path="/listaCarrosGeral" element={<ListaCarros />} />
+
+                    <Route path="/listaFuncionarios" element={<ListaFuncionarios />} />
+
+                    <Route path="/listaCarrosReservados" element={<ListaCarrosReservados />} />
+
+                    <Route path="*" element={<NotFound />} />
+
+                </Routes>
+            </div>
+        </Router >
+    )
 }
 
 export default App;

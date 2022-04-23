@@ -1,0 +1,359 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.headerListaGeral h1 {
+    position: absolute;
+    width: 177.33px;
+    height: 57px;
+    left: 208px;
+    top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: #F54A48;
+}
+
+.headerListaGeral .Logo {
+    position: absolute;
+    width: 35px;
+    height: 38px;
+    left: 150px;
+    top: 35px;
+}
+
+.headerListaGeral {
+    position: absolute;
+    width: 1920px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 25px rgba(169, 169, 169, 0.2);
+}
+
+/*----MENU----*/
+
+.menuListaGeral {
+    position: absolute;
+    width: 222px;
+    height: 45px;
+    left: 150px;
+    top: 150px;
+}
+
+.menuListaGeral h3 {
+    position: absolute;
+    width: 222px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    /* Dark Gray */
+    color: #3C3C3C;
+}
+
+.listagemGeralAll {
+    display: flex;
+    position: absolute;
+    width: 1620px;
+    height: 680px;
+    left: 0px;
+    top: 100px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    /*--Card Shadow--*/
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+    border-radius: 3px;
+}
+
+.listagemGeralAll h6 {
+    width: 480px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 40px;
+    /*--Fonte--*/
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.informacoes span {
+    width: 49px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 65px;
+    padding-left: 30px;
+    padding-right: 10px;
+    word-spacing: 150px;
+    display: column;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    /* Gray */
+    color: #7C7C7C;
+}
+
+/*----BOTÕES MENU----*/
+
+.btn_back {
+    position: absolute;
+    width: 97px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 1000px;
+    padding-left: 20px;
+    background: #EDEDED;
+    /*--Borda--*/
+    border: none;
+    border-radius: 3px;
+    /*--Fonte--*/
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    align-items: center;
+    color: #858585;
+}
+
+.submit_back {
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    display: flex;
+    width: 16px;
+    height: 18px;
+    bottom: 6px;
+    left: 6px;
+}
+
+.btn_1 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 38px;
+    margin-left: 1110px;
+    padding-left: 7px;
+    background: none;
+    display: flex;
+    align-items: center;
+    /*--Borda--*/
+    border: none;
+    border-radius: 3px;
+    /*--Fonte--*/
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /*--Cor--*/
+    color: #858585;
+}
+
+.btn_2 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 38px;
+    margin-left: 1140px;
+    padding-left: 9px;
+    padding-top: 2px;
+    background: #F54A48;
+    display: flex;
+    align-items: center;
+    /*--Borda--*/
+    border: none;
+    border-radius: 3px;
+    /*--Fonte--*/
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /*--Cor--*/
+    color: #FFFFFF;
+}
+
+.btn_3 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 38px;
+    margin-left: 1175px;
+    padding-left: 7px;
+    background: none;
+    display: flex;
+    align-items: center;
+    /*--Borda--*/
+    border: none;
+    border-radius: 3px;
+    /*--Fonte--*/
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /*--Cor--*/
+    color: #858585;
+}
+
+.btn_next {
+    position: absolute;
+    width: 97px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 1210px;
+    padding-right: 15px;
+    background: none;
+    /*--Borda--*/
+    border: none;
+    border-radius: 3px;
+    /*--Fonte--*/
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    align-items: center;
+    color: #858585;
+}
+
+.submit_next {
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    display: flex;
+    width: 16px;
+    height: 18px;
+    bottom: 6px;
+    left: 76px;
+}
+
+.btnSearchListagem {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-left: 1490px;
+    margin-top: 37px;
+    border: none;
+    background: none;
+}
+
+
+
+.searchbox_listagem {
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    width: 206px;
+    height: 40px;
+    margin-left: 1320px;
+    margin-top: 30px;
+    /* Input */
+    background: #F9F9F9;
+    /* Stroke */
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    /* Card shadow */
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+    border-radius: 3px;
+}
+
+.informacoes {
+    position: absolute;
+    width: 1590px;
+    height: 93px;
+    margin-left: 15px;
+    margin-top: 210px;
+    /* Input */
+    box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+    background: #F9F9F9;
+    border-radius: 3px;
+}
+
+.informacoes span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    align-items: center;
+    letter-spacing: -0.02em;
+    /* Dark Gray */
+    color: #3C3C3C;
+}
+
+.Reservado_2 {
+    position: absolute;
+    width: 102px;
+    height: 30px;
+    left: 1035px;
+    top: 390px;
+    padding-top: 3px;
+    padding: 3px;
+    color: #FAC12F;
+    background: rgba(250, 193, 47, 0.2);
+    border-radius: 3px;
+}
+
+.Vendido {
+    position: relative;
+    width: 102px;
+    height: 30px;
+    left: 43px;
+    top: 32px;
+    color: #F54A48;
+    background: rgba(245, 74, 72, 0.2);
+    border-radius: 3px;
+    /* Font */
+}
+
+.Reservado {
+    position: absolute;
+    width: 102px;
+    height: 30px;
+    left: 1035px;
+    top: 212px;
+    padding: 3px;
+    color: #FAC12F;
+    background: rgba(250, 193, 47, 0.2);
+    border-radius: 3px;
+}
+
+table,
+td,
+th {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+
+td,
+th {
+    height: 90px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+th {
+    color: #7C7C7C;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
